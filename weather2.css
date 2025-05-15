@@ -87,7 +87,7 @@ button[type="submit"]:active{
 .cityname{
     font-size: 6rem;
     color:whitesmoke;
-    font-family: tahoma;
+  
 }
 
 .tempdisplay, .humidisplay{
