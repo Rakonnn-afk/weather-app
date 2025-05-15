@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:Tahoma;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    margin:20px;
+    background: #673AB7;  
+    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  
+    background: linear-gradient(to right, #512DA8, #673AB7); 
+    padding:2rem 4rem;
+    gap: 2rem;
+}
+
+
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.inputvalue{
+    width: 60%;
+    height: 2rem;
+    border-radius: 25px;
+    padding: 1rem;
+    border: 2px solid #673AB7;
+    font-family:Tahoma;
+    font-size: 1rem;
+    outline: none;
+}
+.inputvalue:focus{
+    
+    border: 3px solid #673AB7;
+}
+
+
+button[type="submit"]{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    border: 2px solid #673AB7;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.3s;
+}
+
+button[type="submit"]  img{
+    position: relative;
+    width: 1rem;
+}
+
+button[type="submit"]:hover{
+    background-color: #673AB7;
+    transform: scale(1.2);
+}
+
+button[type="submit"]:active{
+    background-color:white;
+    transform: scale(1.2);
+}
+
+
+
+.cityname{
+    font-size: 6rem;
+    color:whitesmoke;
+    font-family: tahoma;
+}
+
+.tempdisplay, .humidisplay{
+    font-size: 2.5rem;
+    font-family: tahoma;
+    color: white;
+    font-weight:bold;
+}
+
+.discdisplay{
+    color: white;
+    font-size: 2rem;
+    font-family: italic;
+    font-weight: bolder;
+}
+.emojidisplay{
+    font-size:5rem;
+}
+.errordisplay{
+    color: white;
+    font-size: 3rem;
+}
